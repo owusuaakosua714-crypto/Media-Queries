@@ -76,11 +76,34 @@ Do not delete any of the above code. */
   border-radius: 8px;
 }
 
+/* C2 */
+.layout-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.main-content{
+  background-color: #3498db;
+  padding: 20px;
+  color: white;
+  border-radius: 8px;
+  text-shadow: 2px 2px 5px black;
+
+}
+
+.sidebar{
+  background-color: cadetblue;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  border-radius: 8px;
+}
+
 /* styling on tablet */
 @media screen and (max-width:991px){
   .light-box{
     background-color: yellow;
-    color: #2c3e50;
+    color: #2c3e50; 
   }
 }
 
